@@ -8,7 +8,7 @@ function pokemonToLi(pokemon) {
     <a onclick="getPokemon(${pokemon.number})" href="#">
         <li class="pokemon ${pokemon.type}" >
             <span class="number">#${pokemon.number}</span>
-            <span class="name">${pokemon.name}</span>
+            <span class="name-pokemon">${pokemon.name}</span>
             
             <div class="details">
                 <ol class="types">
